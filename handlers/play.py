@@ -108,7 +108,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "@RobertTg"
+        user.first_name = "@TG_Queen1"
     usar = user
     wew = usar.id
     try:
@@ -138,7 +138,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>❰𝗲𝗦𝗽𝗼𝗿𝘁 ❘ 𝗠𝘂𝘀𝗶𝗰𝗫❱ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 😎🤟</i>"
+            f"<i>『TG』☆Queen ☆࿐>ᴰᵃⁿᵍᵉʳ-ᴮᵒᵗ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 😎🤟</i>"
         )
         return
 
@@ -166,9 +166,9 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=f"https://t.me/eSport_BOTs"
+                        text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹✨️", url=f"https://t.me/danger_BOTs"
                     ),
-                    InlineKeyboardButton(text="𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/EsportClan"),
+                    InlineKeyboardButton(text="𝗚𝗿𝗼𝘂𝗽🌴", url=f"https://t.me/nammude_keralam"),
                 ]
             ]
         )
@@ -205,10 +205,10 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=f"https://t.me/eSport_BOTs"
+                            text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹✨️", url=f"https://t.me/danger_BOTs"
                         ),
                         InlineKeyboardButton(
-                            text="𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/EsportClan"
+                            text="𝗚𝗿𝗼𝘂𝗽🌴", url=f"https://t.me/nammude_keralam"
                         ),
                     ]
                 ]
@@ -222,10 +222,10 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url=f"https://t.me/eSport_BOTs"
+                            text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹✨️", url=f"https://t.me/danger_BOTs"
                         ),
                         InlineKeyboardButton(
-                            text="𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/EsportClan"
+                            text="𝗚𝗿𝗼𝘂𝗽🌴", url=f"https://t.me/nammude_keralam"
                         ),
                     ]
                 ]
