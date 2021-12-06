@@ -26,7 +26,7 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "Commands👀", url="https://telegra.ph/Dangerbots-12-05"
+                        "Commands", url="https://telegra.ph/Dangerbots-12-05"
                     )]
             ]
         ),
