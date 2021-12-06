@@ -11,23 +11,23 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎀
 ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ  ɢʀᴏᴜᴩ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. 
-ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ 🤗 Developed By [👻👻](https://t.me/Kidqueen_bot) !**
+ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ 🤗 Developed By [👻👻](https://t.me/dangerpro_bot) !**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔨Source Code🔨", url="https://t.me/Kidqueen_bot")
+                        "Owner ✨️", url="https://t.me/danger_of_telegram")
                   ],[
                     InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/Status_world2"
+                        "Support❤", url="https://t.me/danger_bots"
                     ),
                     InlineKeyboardButton(
-                        "DEV", url="https://t.me/danger_of_telegram"
+                        "Group 🌴", url="https://t.me/nammude_keralam"
                     )    
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/kidqueen?startgroup=true"
+                        "Commands👀", url="https://telegra.ph/Dangerbots-12-05"
                     )]
             ]
         ),
