@@ -1,7 +1,7 @@
 import os
 import requests
 import aiohttp
-import yt_dlp
+import youtube_dl
 
 from pyrogram import filters, Client
 from youtube_search import YoutubeSearch
@@ -47,7 +47,7 @@ def song(client, message):
         return
     m.edit("𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗦𝗼𝗻𝗴 𝗙𝗿𝗼𝗺 𝗦𝗲𝗿𝘃𝗲𝗿...")
     try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
